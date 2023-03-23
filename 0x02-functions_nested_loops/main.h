@@ -2,7 +2,7 @@
 #define MAIN_H
 #include<stdio.h>
 
-int _putchar(char c)
-{return (fwrite(1,&c,1));
+char _putchar(char c)
+{return (c);
 }
 #endif
