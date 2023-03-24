@@ -15,7 +15,7 @@ for (i = 0; i < n; i++)
 		if (j == i)
 		_putchar('\\');
 		else if (j < i)
-		_putchar(' ');
+		_putchar(32);
 	}
 	_putchar('\n');
 }
